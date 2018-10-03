@@ -53,6 +53,7 @@ def main():
     print
     print 'only14'
     test(only14([1, 4, 1, 4]), True)
+
     test(only14([1, 4, 2, 4]), False)
     test(only14([1, 1, 1, 5]), False)
 
