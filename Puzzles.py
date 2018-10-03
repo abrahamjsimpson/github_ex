@@ -14,7 +14,13 @@
     # sum28([1, 2, 3, 4]) -> false
 def sum28(nums):
     # +++your code here+++
-    return
+    sum = 0
+    for i in range (1, len(nums))
+        if nums[i] == 2
+            sum += 2
+    if sum == 8
+        return true
+    return false
 
 
 #=================ONLY~14==================/
@@ -37,7 +43,7 @@ def test(got, expected):
         prefix = ' OK '
     else:
         prefix = ' X '
-    print '%s got: %s expected: %s' % (prefix, repr(got), repr(expected))
+    print (f'{prefix} got: {repr(got)} expected: {repr(expected)}')
 
 # Provided main() calls the above functions with a ew winputs
 # using test() to check if each result is correct or not
